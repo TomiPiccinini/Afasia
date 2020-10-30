@@ -1,0 +1,27 @@
+#img1 {
+    border-radius: 2em;
+
+}
+/*
+#img1 {
+    border-top-right-radius: 2em;
+}
+*/
+#card {
+    border-radius: 2em;
+    background-color: white;
+    height: 88vh;
+    border: 3px solid black;
+}
+
+#cardbody {
+    text-align: center;
+}
+
+#container {
+    background-color: darkslategray;
+}
+
+body {
+    background-color: darkslategray;
+}

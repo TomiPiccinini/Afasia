@@ -1,0 +1,34 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" routerLink="#">Afasia</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link" routerLink="/menu">Menú principal<span class="sr-only"></span></a>
+            </li>
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link" routerLink="#">Rendimiento</a>
+            </li>
+            <li class="nav-item" routerLinkActive="active">
+                <a class="nav-link" routerLink="/contacto">Contáctanos</a>
+            </li>
+            <li class="nav-item" routerLinkActive="active">
+                <a *ngIf=""
+                class="btn btn-outline-primary" routerLink="/login">Ingresar</a>
+            </li>
+            <li class="nav-item dropdown" id="desplegable">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Cuenta
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" routerLink="#">Configuración</a>
+                    <div class="dropdown-divider"></div>
+                    <a *ngIf=""
+                    class="dropdown-item" routerLink="#">Salir</a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</nav>

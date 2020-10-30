@@ -1,0 +1,41 @@
+div.container {
+    min-height: 91vh;
+    min-width: 100vh;
+    padding: 20px 20px 20px 20px;
+    text-align: center;
+    /*margin-left: auto;
+    margin-right: auto;*/
+}
+
+#menuCards {
+    /*display: flex;*/
+    display: inline-block;
+    padding: 10px 10px 10px 10px;
+    border: 3px solid black;
+    border-radius: 2em;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    /*-webkit-transition:all .9s ease; /* Safari y Chrome */
+    /*-moz-transition:all .9s ease; /* Firefox */
+    /*-o-transition:all .9s ease; /* IE 9 */
+    /*-ms-transition:all .9s ease; /* Opera */
+    transition: transform 0.9s ease;
+}
+
+#menuCards:hover {
+    transform: scale(1.10);
+    /*-webkit-transform:scale(1.10);
+    -moz-transform:scale(1.10);
+    -ms-transform:scale(1.10);
+    -o-transform:scale(1.10);
+    transform:scale(1.10);*/
+}
+
+#img {
+    border-radius: 1em;
+}
+
+#enlace {
+    color: black;
+}
